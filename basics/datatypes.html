@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn Python with-HKP HUB</title>
+    <title>Data Types in Python | HKP HUB</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="basics.css">
-
 </head>
 
 <body>
@@ -22,47 +21,92 @@
     </nav>
 </header>
 
- <section class="content-block">
-    <h1>Python Basics</h1>
-    <p>This section covers the fundamental concepts of Python programming, including variables, data types, and basic operations.</p>
+<main>
 
-    <p>If you are new to Python programming in general, this section will help you get started with the basics.</p>
+<h1>Data Types in Python</h1>
 
-    <h2>How to Run Python</h2>
+<p>
+    A <strong>data type</strong> defines the kind of value a variable can store and determines
+    what operations can be performed on it.
+</p>
 
-    <p>You can run Python in the following ways:</p>
+<!-- Example -->
+<section>
+    <h2>Example</h2>
 
+    <pre class="code-block">
+x = 10
+price = 99.5
+name = "Python"
+is_active = True
+    </pre>
+
+    <p class="content-block">
+        Here, <code>x</code> is an integer, <code>price</code> is a float,
+        <code>name</code> is a string, and <code>is_active</code> is a boolean.
+    </p>
+</section>
+
+<!-- Key Points -->
+<section class="content-block">
+    <h2>Key Points</h2>
     <ul>
-  <li><strong>Python REPL:</strong> Run Python interactively using the terminal.</li>
-  <li><strong>Python Script:</strong> Write code in a <code>.py</code> file and execute it.</li>
-  <li><strong>VS Code:</strong> Recommended editor for writing and running Python programs.</li>
+        <li>Python automatically assigns a data type based on the value</li>
+        <li>No need to declare the data type explicitly</li>
+        <li>Data types help Python perform correct operations</li>
     </ul>
+</section>
 
+<!-- Types -->
+<section class="content-block">
+    <h2>Common Built-in Data Types</h2>
+    <ul>
+        <li><strong>int</strong> whole numbers (10, -5, 0)</li>
+        <li><strong>float</strong> decimal numbers (3.14, 0.5)</li>
+        <li><strong>str</strong> text values ("Python")</li>
+        <li><strong>bool</strong> True or False</li>
+        <li><strong>list</strong> ordered and mutable collection</li>
+        <li><strong>tuple</strong> ordered and immutable collection</li>
+        <li><strong>dict</strong>key-value pairs</li>
+    </ul>
+</section>
 
-    <h2>Your First Python Program</h2>
+<!-- Practice -->
+<section class="content-block">
+    <h2>Practice Questions</h2>
+    <ol>
+        <li>Create variables of type <code>int</code>, <code>float</code>, and <code>str</code></li>
+        <li>Create a list with three items</li>
+        <li>Create a dictionary to store your name and age</li>
+    </ol>
+</section>
 
-    <pre class="code-block"><code>
-print("Hello, World!")
-</code></pre>
-    <p>This program prints "Hello, World!" to the console.</p>
+<!-- FAQs -->
+<section class="content-block">
+    <h2>FAQs</h2>
 
-    <h2>Next Topic</h2>
+    <p><strong>Q1. Do we need to specify data types in Python?</strong></p>
+    <p>No. Python automatically assigns a data type based on the value.</p>
 
-    <div class="topic-links">
-  <a href="datatypes.html" class="topic-card">Data Types</a>
+    <p><strong>Q2. Can a variable change its data type?</strong></p>
+    <p>Yes. Python supports dynamic typing.</p>
+
+    <p><strong>Q3. How can I check the data type of a variable?</strong></p>
+    <p>By using the <code>type()</code> function.</p>
+</section>
+
+<!-- Next -->
+<h2>Navigation</h2>
+<div class="topic-links">
+    <a href="variables.html" class="topic-card">← Previous: Variables</a>
+    <a href="operations.html" class="topic-card">Next: Operations →</a>
 </div>
 
-    </section>
-
-    <p class="soft-note"> </p>
-
-
-
-
-</body>
+</main>
 
 <footer class="footer">
     <p>&copy; 2026 HKP HUB. All rights reserved.</p>
 </footer>
 
+</body>
 </html>
